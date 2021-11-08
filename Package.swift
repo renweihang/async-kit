@@ -9,9 +9,9 @@ let package = Package(
     products: [
         .library(name: "AsyncKit", targets: ["AsyncKit"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.10.0"),
-        .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
+    dependencies: [ 
+        .package(url: "https://github.com/renweihang/swift-nio.git", from: "2.10.0"),
+        .package(url: "https://github.com/renweihang/swift-log.git", from: "1.0.0"),
     ],
     targets: [
         .target(name: "AsyncKit", dependencies: [
